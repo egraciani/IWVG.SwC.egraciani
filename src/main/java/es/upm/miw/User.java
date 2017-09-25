@@ -38,4 +38,8 @@ public class User {
         return this.familyName;
     }
 
+    public void convertToUpperCase() {
+        // TODO Auto-generated method stub
+    }
+
 }

@@ -40,5 +40,13 @@ public class UserTest {
             user = new User(2, name, familyName); 
         assertEquals("P.", user.initials());
     }
+    
+    @Test
+    public void testConvertToUpperCase() {
+        user = new User(2, name, familyName); 
+        user.convertToUpperCase();
+        assertEquals("PEDRO", user.getName());
+        assertEquals("GARCIA", user.getFamilyName());
+    }
 
 }
