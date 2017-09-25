@@ -51,5 +51,12 @@ public class PointTest {
         assertEquals(1, pt.getX());
         assertEquals(2, pt.getY());
     }
+    
+    @Test
+    public void testAddToCoordinate() {
+        this.pt.translateOrigin(new Point(1, 1));
+        pt.addToCoordinateX(5);
+        assertEquals(7, pt.getX());
+    }
 
 }

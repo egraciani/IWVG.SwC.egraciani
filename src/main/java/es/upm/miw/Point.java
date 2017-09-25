@@ -45,4 +45,8 @@ public class Point {
         return "Point[" + x + "," + y + "]";
     }
 
+    public void addToCoordinateX(int numberToAdd) {
+        // TODO This method adds numberToAdd to coordinate X
+    }
+
 }
