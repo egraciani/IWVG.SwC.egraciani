@@ -54,4 +54,19 @@ public class Fraction {
         return denominator;
     }
 
+    public double multiply(Fraction fraction) {
+        // TODO Auto-generated method stub
+        return 0;
+    }
+
+    public Fraction divide(Fraction divisor) {
+        // TODO Auto-generated method stub
+        return null;
+    }
+
+    public boolean isPropia() {
+        // TODO: Fraccion propia si el numerador es menor al denominador
+        return false;
+    }
+
 }
