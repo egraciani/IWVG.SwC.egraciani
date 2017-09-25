@@ -56,5 +56,10 @@ public class DecimalCollectionTest {
         exception.expect(ArithmeticException.class);
         new DecimalCollection().higher();
     }
+    
+    @Test
+    public void testSumNumbersOfCollection() {
+        assertEquals(5.0, this.decimalCollection.sumNumbersOfCollection(1,3), 10e-5);
+    }
 
 }

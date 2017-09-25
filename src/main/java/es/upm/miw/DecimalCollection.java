@@ -45,4 +45,9 @@ public class DecimalCollection {
         return higher;
     }
 
+    public double sumNumbersOfCollection(int positionOfNumberToSum1, int positionOfNumberToSum2) {
+        // TODO Given two positions, this method returns the sum of both numbers in those positions of the collection
+        return 0;
+    }
+
 }
