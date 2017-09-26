@@ -56,7 +56,7 @@ public class Fraction {
 
     public double multiply(Fraction fraction) {
         // TODO Auto-generated method stub
-        return 0;
+        return ((this.numerator * fraction.numerator) / (this.denominator * fraction.denominator));
     }
 
     public Fraction divide(Fraction divisor) {
