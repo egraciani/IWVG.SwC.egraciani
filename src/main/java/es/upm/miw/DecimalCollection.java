@@ -46,8 +46,7 @@ public class DecimalCollection {
     }
 
     public double sumNumbersOfCollection(int positionOfNumberToSum1, int positionOfNumberToSum2) {
-        // TODO Given two positions, this method returns the sum of both numbers in those positions of the collection
-        return 0;
+        return this.collection.get(positionOfNumberToSum1-1) + this.collection.get(positionOfNumberToSum2-1);
     }
 
 }
