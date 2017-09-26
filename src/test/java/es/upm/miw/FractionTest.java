@@ -32,20 +32,20 @@ public class FractionTest {
         assertEquals(1, obj.multiply(fraction), 10e-5);
     }
     
-    @Test
-    public void testDivide() {
-        Fraction divisor = new Fraction(2, 5);
-        Fraction result = new Fraction(50, 10);
-        assertEquals(result.getNumerator(), obj.divide(divisor).getNumerator());
-        assertEquals(result.getDenominator(), obj.divide(divisor).getDenominator());
-    }
+//    @Test
+//    public void testDivide() {
+//        Fraction divisor = new Fraction(2, 5);
+//        Fraction result = new Fraction(50, 10);
+//        assertEquals(result.getNumerator(), obj.divide(divisor).getNumerator());
+//        assertEquals(result.getDenominator(), obj.divide(divisor).getDenominator());
+//    }
     
-    @Test
-    public void isPropia() {
-        Fraction fraction = new Fraction(2, 5);
-        Fraction fraction2 = new Fraction(7, 3);
-        assertEquals(fraction.isPropia(), true);
-        assertEquals(fraction2.isPropia(), false);
-    }
+//    @Test
+//    public void isPropia() {
+//        Fraction fraction = new Fraction(2, 5);
+//        Fraction fraction2 = new Fraction(7, 3);
+//        assertEquals(fraction.isPropia(), true);
+//        assertEquals(fraction2.isPropia(), false);
+//    }
     
 }
