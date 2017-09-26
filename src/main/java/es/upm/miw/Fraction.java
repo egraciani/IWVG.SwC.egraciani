@@ -65,8 +65,8 @@ public class Fraction {
     }
 
     public boolean isPropia() {
-        // TODO: Fraccion propia si el numerador es menor al denominador
-        return false;
+       	return this.numerator < this.denominator;
     }
+   
 
 }
