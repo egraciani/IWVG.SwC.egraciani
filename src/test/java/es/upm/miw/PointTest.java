@@ -54,7 +54,6 @@ public class PointTest {
     
     @Test
     public void testAddToCoordinate() {
-        this.pt.translateOrigin(new Point(1, 1));
         pt.addToCoordinateX(5);
         assertEquals(7, pt.getX());
     }
