@@ -46,7 +46,7 @@ public class Point {
     }
 
     public void addToCoordinateX(int numberToAdd) {
-        // TODO This method adds numberToAdd to coordinate X
+        this.x = this.getX() + numberToAdd;
     }
 
 }
