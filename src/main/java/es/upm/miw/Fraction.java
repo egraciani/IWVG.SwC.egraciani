@@ -59,9 +59,10 @@ public class Fraction {
         return ((this.numerator * fraction.numerator) / (this.denominator * fraction.denominator));
     }
 
-    public Fraction divide(Fraction divisor) {
-        // TODO Auto-generated method stub
-        return null;
+    public Fraction divide(Fraction divisor) {        
+        this.numerator = this.numerator*divisor.getDenominator();
+        this.denominator = this.denominator * divisor.getNumerator();
+        return this;
     }
 
     public boolean isPropia() {
