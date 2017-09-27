@@ -39,7 +39,8 @@ public class User {
     }
 
     public void convertToUpperCase() {
-        // TODO Auto-generated method stub
+        this.name = this.name.toUpperCase();
+        this.familyName = this.familyName.toUpperCase();
     }
 
 }
